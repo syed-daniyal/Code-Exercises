@@ -24,9 +24,12 @@
         <asp:GridView ID="GridViewItems" runat="server">
         </asp:GridView>
 
-        <asp:Button ID="Button1" runat="server" Text="Display All Items of Orders" />
+        <asp:Button ID="Button1" runat="server" Text="Display All Items of Orders with Customer name" />
         <asp:GridView ID="GridView2" runat="server">
         </asp:GridView>
+
+        <h4> Orders and their respective salesman_name.</h4>
+
         <asp:GridView ID="GridView3" runat="server">
         </asp:GridView>
     </div>
